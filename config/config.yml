@@ -1,0 +1,15 @@
+platformName: 'Android'
+platformVersion: '10.0'
+deviceName: 'Huawei P40 Pro'
+udid: 'K5J0220928003435'
+realDevice: 'true'
+appPackage: 'com.info.h57s45h'
+appActivity: 'com.zoontek.rnbootsplash.RNBootSplashActivity'
+driver: 'http://127.0.0.1:4723/wd/hub'
+unicodeKeyboard: true
+resetKeyboard: true
+noReset: true
+newSessionWaitTimeout: 600
+newCommandTimeout: 5
+endSessionWaitTimeout: 600
+
