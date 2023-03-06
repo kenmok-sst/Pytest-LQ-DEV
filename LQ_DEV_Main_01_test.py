@@ -35,6 +35,8 @@ class TestMainScreenClick:
         time.sleep(2)
         self.driver.find_element_by_xpath("//*[@class='android.view.ViewGroup' and ./*[@text='篮球']]").click()
         time.sleep(2)
+        self.driver.find_element_by_xpath("//*[@class='android.view.ViewGroup' and ./*[@text='主播']]").click()
+        time.sleep(2)
         self.driver.find_element_by_xpath("//*[@class='android.view.ViewGroup' and ./*[@text='微头条']]").click()
         time.sleep(2)
         self.driver.find_element_by_xpath("//*[@class='android.view.ViewGroup' and ./*[@text='视频']]").click()
